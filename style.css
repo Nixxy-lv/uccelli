@@ -51,6 +51,10 @@ body {
   overflow: hidden;
 }
 
+.hero-card img {
+  border-radius: 40px;
+}
+
 /* GRADIENT EFFECT */
 .hero-card > * {
   position: relative;
