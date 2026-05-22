@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", monospace, sans-serif;
+  background-color: #0f1115;
+  color: #f1f3f5;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: #171a21;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  gap: 40px;
+}
+
+
