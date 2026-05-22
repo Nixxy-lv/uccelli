@@ -84,6 +84,10 @@ body {
   transform: translateY(0);
 }
 
+.co {
+  text-align: center;
+}
+
 /* MOBILE */
 @media (max-width: 768px) {
   .feature-container {
