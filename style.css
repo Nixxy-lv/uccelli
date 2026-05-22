@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 10px 40px;
-  background-color: #171a21;
+  background-color: #211a1a;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
   position: sticky;
   top: 0;
@@ -25,7 +25,7 @@ body {
   gap: 8px;
   font-size: 20px;
   font-weight: bold;
-  color: #dce7f5;
+  color: #f5d3d1;
   line-height: 1;
 }
 
@@ -41,18 +41,12 @@ body {
   max-width: 900px;
   padding: 50px 40px;
   border-radius: 16px;
-
-  background:
-			radial-gradient(circle at top left, rgba(255, 140, 0, 0.34), transparent 50%), 
-			radial-gradient(circle at bottom right, rgba(255, 190, 0, 0.16), transparent 60%)
-    #181c24;
-
+  background: radial-gradient(circle at top left, rgba(255, 140, 0, 0.34), transparent 50%), 
+              radial-gradient(circle at bottom right, rgba(255, 190, 0, 0.16), transparent 60%) #241c18;
   background-size: 220% 220%;
   animation: heroGlow 16s ease-in-out infinite;
-
-  border: 1px solid #2a3340;
+  border: 1px solid #40302a;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
-
   position: relative;
   overflow: hidden;
 }
@@ -64,25 +58,11 @@ body {
 }
 
 @keyframes heroGlow {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  25% {
-    background-position: 100% 30%;
-  }
-
-  50% {
-    background-position: 80% 100%;
-  }
-
-  75% {
-    background-position: 20% 70%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
+  0% { background-position: 0% 50%; }
+  25% { background-position: 100% 30%; }
+  50% { background-position: 80% 100%; }
+  75% { background-position: 20% 70%; }
+  100% { background-position: 0% 50%; }
 }
 
 /* SCROLL FADE */
@@ -102,11 +82,10 @@ body {
   .feature-container {
     grid-template-columns: 1fr;
   }
-
   h1 {
     font-size: 32px;
   }
-  hero-card {
-        animation: none;
+  .hero-card {
+    animation: none;
   }
 }
