@@ -53,7 +53,7 @@ body {
 
 .hero-card img {
   border-radius: 40px;
-  width: 30%; /* makes image smaller */
+  width: 35%; /* makes image smaller */
   display: block;
   margin: 0 auto; /* centers image */
 }
