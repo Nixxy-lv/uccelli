@@ -72,6 +72,31 @@ body {
   100% { background-position: 0% 50%; }
 }
 
+p {
+  font-size: 10px;
+  line-height: 1,6;
+}
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(135deg, #331d0c, #2f1115);
+  border-top: 1px solid #ff8c00;
+}
+
+.socials a {
+  color: #ff8c00; /* orange */
+}
+
+.copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #7f8b99;
+}
+
+.socials a:hover {
+  color: #ffa500; /* lighter orange */
+}
+
 /* SCROLL FADE */
 .fade {
   opacity: 0;
