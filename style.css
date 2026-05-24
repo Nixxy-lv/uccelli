@@ -83,6 +83,10 @@ p {
   border-top: 1px solid #ff8c00;
 }
 
+.footer-content {
+  text-align: center;
+}
+
 .socials a {
   color: #ff8c00; /* orange */
 }
